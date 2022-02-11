@@ -1,0 +1,34 @@
+body{
+    background-color: #bf80ff;
+}
+
+header{
+    text-align: center;
+    color: white;
+    font: 20pt bold;
+}
+
+section{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 2px 5px;
+    padding: 10px;
+    margin: auto;
+    width: 40%;
+
+}
+
+section div{
+    margin: 3%;
+}
+
+#divOne p{
+    display: inline;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    margin: 2%;
+}

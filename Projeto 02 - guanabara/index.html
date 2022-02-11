@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Passos</title>
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!--OBJETIVO: The user will type two numbers: the first represents a starting position and the last, a final point. He'll insert a third
+    number that tell us how many squares we'll jump at a iteration-->
+
+    <header><h1>Vamos contar</h1></header>
+
+    <section>
+        <div>Início: <input type="number" name="inicio" id="inicio"></div>
+        <div>Chegada: <input type="number" name="chegada" id="chegada"></div>
+        <div>Passos: <input type="number" name="passos" id="passos"></div>
+        <div><input type="button" value="Contar!" onclick="contar()"></div>
+
+        <div id="result">
+            <p id="resultTxt">Preparando a contagem...</p>
+        </div>
+    </section>
+
+    <footer>&copy; LePablords</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

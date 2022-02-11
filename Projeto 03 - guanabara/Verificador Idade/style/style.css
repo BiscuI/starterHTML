@@ -1,0 +1,39 @@
+body{
+    background-color: #0066ff;
+}
+header{
+    text-align: center;
+    font: 20pt bold arial;
+    color: white;
+}
+section{
+
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px black;
+    padding: 15px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+img{
+    
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+}
+div{
+    margin: 5px;
+    padding: 5px;
+}
+div#divDois p{
+    display: inline;
+}
+div#result{
+    text-align: center;
+}

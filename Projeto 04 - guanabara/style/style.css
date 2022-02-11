@@ -1,0 +1,33 @@
+body{
+    background-color: #3385ff;
+}
+
+header{
+    text-align: center;
+    color: white;
+    font: 20pt bold arial;
+}
+
+section{
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: auto;
+    width: 30%;
+    box-shadow: 5px 2px 5px;
+}
+
+section div{
+    margin: 2%;
+}
+
+#secao p{
+    display: inline;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    margin: 20px;
+}

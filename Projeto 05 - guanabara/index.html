@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de números</title>
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!--OBJETIVO: Crie um menu no qual o usuário irá inserir números(no intervalo de 1 a 100) que serão exibidos numa lista.
+    Ao finalizar as inserções, o programa exibirá: A quantidade de valores adicionados, o maior, o menor, a soma e a média entre eles.-->
+
+    <header><h1>Analisador de números</h1></header>
+
+    <section>
+        <div id="divOne"> 
+            <p>Número(entre 1 e 100)</p>
+            <input type="number" name="valor" id="valor">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+        </div>
+
+        <div>
+            <select name="vetor" id="vetor" multiple></select>
+        </div>
+
+        <div>
+            <input type="button" value="Finalizar" onclick="executar()">
+        </div>
+        <div id="result">
+            <p id="resultTxt"></p>
+        </div>
+    </section>
+
+    <footer>&copy; LePablords</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

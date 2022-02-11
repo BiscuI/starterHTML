@@ -1,0 +1,33 @@
+body{
+    background-color: #33ccff;
+}
+
+header{
+    font: 20pt bold arial;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+section{
+    width:500px;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5%;
+}
+
+#img{
+    border-radius: 45%;
+    width: 250px;
+    height: 250px;
+}
+footer{
+    margin: auto;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
